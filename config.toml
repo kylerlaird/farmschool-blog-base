@@ -12,6 +12,9 @@ taxonomies = [
     {name = "tags", rss = true, paginate_by=5},
 ]
 
+[build]
+command = "date"
+
 [extra]
 author = "Elle"
 clean_blog_menu = [

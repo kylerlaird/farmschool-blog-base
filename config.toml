@@ -1,0 +1,22 @@
+# The URL the site will be built for
+base_url = "https://zola-clean-blog.netlify.com"
+generate_rss = true
+compile_sass = true
+
+title = "Elle of FarmSchool"
+description = "the story of a fierce dog"
+highlight_code = true
+
+taxonomies = [
+    {name = "categories", rss = true, paginate_by=5},
+    {name = "tags", rss = true, paginate_by=5},
+]
+
+[extra]
+author = "Elle"
+clean_blog_menu = [
+    {url = "$BASE_URL", name = "home"},
+    {url = "$BASE_URL/about", name = "about"},
+]
+clean_blog_social = [
+]
